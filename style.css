@@ -102,3 +102,30 @@ img {
     max-width: 40%;
     padding-left: 400px;
 }
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.action .action-text {
+    width: 450px;
+}
+
+.action-button {
+    border: white;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
