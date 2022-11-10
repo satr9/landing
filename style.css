@@ -68,6 +68,29 @@ img {
 .sign-up {
     border-radius: 6px;
     width: 120px;
-    background-color: rgb(18, 162, 206);
+    background-color: #3882f6;
     padding: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    font-size: 38px;
+    columns: #1f2937;
+}
+
+.info-container {
+    display: flex;
+}
+
+.info-box {
+    width: 320px;
+    height: 320px;
+    padding-top: 48px;
+    gap: 16px;
 }
